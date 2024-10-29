@@ -9,7 +9,7 @@ To use the project files:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/chiralcentre/DSA4266_Group1
    ```
    
 2. Unzip the TREC dataset file into the `data` directory, ensuring all CSV files are located in the `data` folder before running the code.

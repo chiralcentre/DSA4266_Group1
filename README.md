@@ -3,7 +3,7 @@
 This project aims to address the rising threat of phishing emails. Our goal is to develop a machine learning (ML) system capable of processing and analyzing email text to accurately detect phishing attempts.
 
 ## Repository Structure
-This repository has a folder titled `Archive`, which stores the old code for data preprocessing and the different models. `Group_1_Models.ipynb` contains the updated code for all the models compiled into a single filo.
+This repository has a folder titled `Archive`, which stores the old code for data preprocessing and the different models. `Group_1_Models.ipynb` contains the updated code for all the models compiled into a single file.
 
 ## Getting Started
 

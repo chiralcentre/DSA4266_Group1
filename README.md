@@ -2,6 +2,9 @@
 
 This project aims to address the rising threat of phishing emails. Our goal is to develop a machine learning (ML) system capable of processing and analyzing email text to accurately detect phishing attempts.
 
+## Repository Structure
+This repository has a folder titled `Archive`, which stores the old code for data preprocessing and the different models. `Group_1_Models.ipynb` contains the updated code for all the models compiled into a single filo.
+
 ## Getting Started
 
 To use the project files:
@@ -22,9 +25,9 @@ To use the project files:
    - `CEAS_08.csv`
    - `Nigerian_5.csv`
 
-   Ensure all CSV files are placed in the `data` directory before running the code.
+   Create a `data` folder, and ensure all CSV files are placed in the `data` folder before running the code.
 
-3. Follow the instructions in the documentation to run the code and start detecting phishing emails.
+3. Run the code in `Group_1_Models.ipynb` in sequential order to observe the models in action. Note that if you are running the code for the first time, the code in the `Import Library and Dataset` section is to be uncommented so that all libraries can be imported. 
 
 ## Data Sources
 

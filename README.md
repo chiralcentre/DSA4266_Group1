@@ -16,7 +16,12 @@ Follow these steps to set up and run the project:
    git clone https://github.com/chiralcentre/DSA4266_Group1
    ```
 
-2. **Download the dataset** from Zenodo and place the files in the appropriate directories:
+2. **Create the necessary folders**:
+   ```bash
+   mkdir data test
+   ```
+
+3. **Download the dataset** from Zenodo and place the files in the appropriate directories:
 
    **Place these files into the `data/` folder**:
    - `Nazario_5.csv`
@@ -31,7 +36,7 @@ Follow these steps to set up and run the project:
    **Place this file into the `test/` folder**:
    - `Nigerian_5.csv`
 
-3. **Run the models**:
+4. **Run the models**:
    Execute the code in `Group_1_Models.ipynb` in sequential order to observe the model training and results.
 
 ## Data Sources

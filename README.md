@@ -1,20 +1,24 @@
 # DSA4266_Group1: Phishing Email Detection Project
 
-This project aims to address the rising threat of phishing emails. Our goal is to develop a machine learning (ML) system capable of processing and analyzing email text to accurately detect phishing attempts.
+This project aims to address the rising threat of phishing emails. Our objective is to develop a machine learning (ML) system that processes and analyzes email text to accurately detect phishing attempts.
 
 ## Repository Structure
-This repository has a folder titled `Archive`, which stores the old code for data preprocessing and the different models. `Group_1_Models.ipynb` contains the updated code for all the models compiled into a single file.
+
+- `Archive/` - Contains deprecated code for data preprocessing and previous model iterations.
+- `Group_1_Models.ipynb` - The main notebook with updated code for all models compiled into a single file.
 
 ## Getting Started
 
-To use the project files:
+Follow these steps to set up and run the project:
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/chiralcentre/DSA4266_Group1
    ```
 
-2. Download the dataset from Zenodo, which includes the following files:
+2. **Download the dataset** from Zenodo and place the files in the appropriate directories:
+
+   **Place these files into the `data/` folder**:
    - `Nazario_5.csv`
    - `Nigerian_Fraud.csv`
    - `TREC_05.csv`
@@ -23,12 +27,13 @@ To use the project files:
    - `Nazario.csv`
    - `SpamAssasin.csv`
    - `CEAS_08.csv`
+
+   **Place this file into the `test/` folder**:
    - `Nigerian_5.csv`
 
-   Create a `data` folder, and ensure all CSV files are placed in the `data` folder before running the code.
-
-3. Run the code in `Group_1_Models.ipynb` in sequential order to observe the models in action. Note that if you are running the code for the first time, the code in the `Import Library and Dataset` section is to be uncommented so that all libraries can be imported. 
+3. **Run the models**:
+   Execute the code in `Group_1_Models.ipynb` in sequential order to observe the model training and results.
 
 ## Data Sources
 
-All data files used in this project are sourced from [Zenodo](https://zenodo.org/records/8339691). Please refer to the dataset for detailed information about the contents and licensing.
+All data files used in this project are sourced from [Zenodo](https://zenodo.org/records/8339691). Please refer to Zenodo for detailed information about the dataset contents and licensing.
